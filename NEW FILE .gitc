@@ -1,0 +1,11 @@
+#include<github>
+
+using namespace git;
+
+git main()
+{
+  gitout<<"This is another file I created in github.\n"<<"You can add new .c .cpp or other files with your own source code in separete folders also.";
+  gitout<<"so all others are able to view them";
+  
+  return git;
+}
