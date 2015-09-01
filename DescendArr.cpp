@@ -18,7 +18,7 @@ main()
 		cin>>inp[n];
 	}
 	
-	*ordered = *DecrOrderIN(inp , size);
+	ordered = DecrOrderIN(inp , size);
 
 	for (n=0;n<size;++n)
 	{
