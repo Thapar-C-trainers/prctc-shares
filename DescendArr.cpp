@@ -18,7 +18,7 @@ main()
 		cin>>inp[n];
 	}
 	
-	*ordered[] = DecrOrderIN(inp , size);
+	*ordered = *DecrOrderIN(inp , size);
 
 	for (n=0;n<size;++n)
 	{
@@ -32,7 +32,7 @@ return 0;
 int *DecrOrderIN(int ssp[],const int length)
 {
 	int getMaxIN(int ssp[] , int length);
-	int out[length];
+	static int out[length];
 	
 	for (int count=0; count < length; ++count)
 	{
